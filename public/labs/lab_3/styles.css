@@ -1,5 +1,6 @@
 body {
     padding: 10px;
+    background: rgb(81, 157, 228);
   }
   
   .carousel {
@@ -8,23 +9,22 @@ body {
     padding: 10px 40px;
     border: 1px solid #CCC;
     border-radius: 15px;
-    align-self: center;
     background: #eee;
+
   }
   
   .carousel img {
     width: 130px;
     height: 130px;
-    align-self: center;
-    /* make it block to remove space around images */
     display: block;
+    
   }
   
   .arrow {
     position: absolute;
     top: 60px;
     padding: 0;
-    background: #ddd;
+    background: rgb(221, 221, 221);
     border-radius: 15px;
     border: 1px solid gray;
     font-size: 24px;
@@ -52,6 +52,7 @@ body {
   
   .gallery {
     width: 390px;
+    vertical-align: middle;
     overflow: hidden;
   }
   
@@ -67,4 +68,5 @@ body {
   
   .gallery li {
     display: inline-block;
+    align-content: center;
   }
