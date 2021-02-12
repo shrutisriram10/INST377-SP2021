@@ -1,4 +1,4 @@
-function RunCarsole(){ 
+function RunCarousle(){ 
       let i = 1;
       for(let li of carousel.querySelectorAll('li')) {
         li.style.position = 'relative';
@@ -26,4 +26,4 @@ function RunCarsole(){
         list.style.marginLeft = position + 'px';
       };
 }
-RunCarsole();
+RunCarousle();
