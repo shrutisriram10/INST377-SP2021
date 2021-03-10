@@ -6,7 +6,7 @@ body {
     align-self: center;
   }
 h1 {
-      font-family: 'Akaya Telivigala', cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 3rem;
       text-align: center;
       font-weight: 800;
@@ -15,27 +15,7 @@ h1 {
     text-align: center;
 }
 
-.suggestions {
-    margin: 100 px;
-    padding: 10 px;
-    position: relative;
-    display: inline-block;
-    /*perspective: 20px;*/
-}
-  
-.suggestions li {
-    background:linear-gradient(rgb(168, 231, 168), rgb(227, 180, 236));
-    list-style: none;
-    border-bottom: 1px solid #D8D8D8;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
-    margin: 50 px;
-    width: 500 px;
-    align-self: center;
-    padding: 20px;
-    transition: background 0.2s;
-    display: inline-block;
-    text-transform: capitalize;
-}
+#mapid { height: 180px; }
   
 span.population {
     font-size: 15px;
