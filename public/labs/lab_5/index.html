@@ -18,15 +18,21 @@
 </head>
 <body>
     <h1> Shruti Sriram's Lab 5 </h1>
-    <form id="search-form" class="userform">
-        <label for="filter"></label>
-        <input type="text" class="search" name="filter responses" id="filter" placeholder="filter">
-        <button type="submit" class="button is-primary" id = "searchButton">Submit</button>
-    </form>
-    <div class="reply-message">
-        <ul class="target-list" id="target-list"></ul>
+    <div class="columns">
+        <div class="column">
+            <form id="search-form" class="userform">
+                <label for="filter"></label>
+                <input type="text" class="search" name="filter responses" id="filter" placeholder="filter">
+                <button type="submit" class="button is-primary" id = "searchButton">Submit</button>
+            </form>
+            <div class="reply-message">
+                <ul class="target-list" id="target-list"></ul>
+            </div>
+        </div>
+        <div class="column">
+            <div id="mapid"></div>
+        </div>
     </div>
-    <div id="mapid"></div>
 </body>
 
 <script src='script.js'></script>
