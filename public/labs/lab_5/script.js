@@ -42,7 +42,8 @@ async function dataFilter(mapFromMapFunction){
             const appendItem = document.createElement('li');
             appendItem.classList.add('block');
             appendItem.classList.add('list-item');
-            appendItem.innerHTML = `<div class="list-header is-size-5">${item.name} <div><address class="is-size-6">${item.address_line_1}</address>`;
+            appendItem.innerHTML = `<div class="list-header is-size-5">${item.name} 
+            <div><address class="is-size-6">${item.address_line_1}</address>`;
             targetList.append(appendItem);
         });
 
@@ -50,13 +51,14 @@ async function dataFilter(mapFromMapFunction){
         console.log('viewSet coords', coordinates);
         mapFromMapFunction.panTo([coordinates[1], coordinates[0]], 0);
         });
+        /*
         search.addEventListener('input', (event) => {
             console.log('input', event.target.value);
-            if(search.value.length === 0){
-                replyMessage.innerText = '';
-                replyMessage.classList.remove('box');
-            }
-        });
+         //   if(search.value.length === 0){
+        //        replyMessage.innerText = '';
+         //       replyMessage.classList.remove('box');
+         //   }
+        });*/
     }
 
 async function windowActions(){

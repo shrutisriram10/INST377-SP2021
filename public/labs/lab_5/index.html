@@ -18,11 +18,13 @@
 </head>
 <body>
     <h1> Shruti's Lab 5 </h1>
-    <form class="userform">
-        <input type="text" name="filter responses" id="filter" placeholder="filter" class = "search">
+    <form id="search-form" class="userform">
+        <input type="text" class="search" name="filter responses" id="filter" placeholder="filter" class = "search">
         <button type="submit" class="button is-primary" id = "searchButton">Submit</button>
     </form>
-    <ul class="suggestions" id="suggestions"></ul>
+    <div class="reply-message">
+        <ul class="target-list" id="target-list"></ul>
+    </div>
     <div id="mapid"></div>
 </body>
 <script type='text/javascript' src='script.js'></script>
